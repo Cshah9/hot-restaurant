@@ -78,14 +78,14 @@
         "customerEmail": $("#email").val().trim(),
         "customerID": $("#unique-id").val().trim()
         }
+     console.log("posting : " + JSON.stringify (newReservation));
 
       // Question: What does this code do??
       $.post("/api/new", newReservation)
       .done(function(data) {
         console.log(data);
-        alert("Adding character...");
+        alert("Yippie Kay Yay....we have your reservation!");
       });
-     alert("posting : " + JSON.stringify (newReservation));
 
 
       $("#name").val("");
