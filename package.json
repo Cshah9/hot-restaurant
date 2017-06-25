@@ -1,26 +1,14 @@
 {
-  "name": "hot-restaurant",
+  "name": "hoteats",
   "version": "1.0.0",
-  "description": "our first express web app",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cshah9/hot-restaurant.git"
-  },
-  "keywords": [
-    "hot",
-    "restaurant"
-  ],
-  "author": "Madhu, Randy, Yuxin, JC, Chirag",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Cshah9/hot-restaurant/issues"
-  },
-  "homepage": "https://github.com/Cshah9/hot-restaurant#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",

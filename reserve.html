@@ -81,7 +81,7 @@
      console.log("posting : " + JSON.stringify (newReservation));
 
       // Question: What does this code do??
-      $.post("/api/new", newReservation)
+      $.post("/reserve", newReservation)
       .done(function(data) {
         console.log(data);
         alert("Yippie Kay Yay....we have your reservation!");
